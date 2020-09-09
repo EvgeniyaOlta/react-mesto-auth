@@ -1,0 +1,41 @@
+@import url(./__input/popup__input.css);
+@import url(./__input/_with-error/popup__input_with-error.css);
+@import url(./__input-error/popup__input-error.css);
+@import url(./__input-error/_active/popup__input-error_active.css);
+@import url(./__title/popup__title.css);
+@import url(./__title/_for-image/popup__title_for-image.css);
+@import url(./__title/_for-avatar/popup__title_for-avatar.css);
+@import url(./__list/popup__list.css);
+@import url(./__list/_hidden/popup__list_hidden.css);
+@import url(./__image/popup__image.css);
+@import url(./__image/_hidden/popup__image_hidden.css);
+@import url(./__container/popup__container.css);
+@import url(./__container/_type_form/popup__container_type_form.css);
+@import url(./__container/_type_removeCard/popup__container_type_removeCard.css);
+@import url(./__container/_type_avatar/popup__container_type_avatar.css);
+@import url(./__save-button/popup__save-button.css);
+@import url(./__save-button/_active/popup__save-button_active.css);
+@import url(./__save-button/_for-remove/popup__save-button_for-remove.css);
+@import url(./__close-button/popup__close-button.css);
+
+
+.popup{
+  display: flex;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s, visibility 0s linear 0.3s;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 0px;
+}
+
+.popup:hover {
+  cursor: pointer;
+}

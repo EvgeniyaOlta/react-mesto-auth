@@ -1,0 +1,10 @@
+.card__like-block{
+  height: 34px;
+  width: 20px;
+  margin-top: 21px;
+  margin-right: 21px;
+  display: flexbox;
+  flex-direction: column;
+}
+
+

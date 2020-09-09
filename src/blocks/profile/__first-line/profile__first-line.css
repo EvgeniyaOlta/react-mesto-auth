@@ -1,0 +1,14 @@
+.profile__first-line {
+  display: flex ;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  width: 100%;
+}
+
+@media (max-width : 767px) {
+  .profile__first-line {
+    width: auto;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+.popup__image {
+  display: block;
+  overflow: hidden;
+  height: 75vh; 
+  width: 75vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://static8.depositphotos.com/1145675/836/i/950/depositphotos_8369327-stock-photo-networks-internet-and-here-wireless.jpg");
+}
+
+ 
+

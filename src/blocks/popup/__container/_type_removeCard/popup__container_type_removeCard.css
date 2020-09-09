@@ -1,0 +1,23 @@
+.popup__container_type_removeCard { 
+  display: flex;
+  width: 430px;
+  height: 180px;
+  background-color: white;
+  flex-direction: column;
+  justify-content: start;
+  align-self: flex-start;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 28.5vh;
+}
+
+@media (max-width : 520px) {
+  .popup__container_type_removeCard {
+    width: 240px;
+    height: 258px;
+  }
+}  
+
+ 
+ 
+

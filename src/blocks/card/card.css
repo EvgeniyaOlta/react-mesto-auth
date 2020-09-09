@@ -1,0 +1,29 @@
+@import url(./__name/card__name.css);
+@import url(./__image/card__image.css);
+@import url(./__like-button/card__like-button.css);
+@import url(./__like-amount/card__like-amount.css);
+@import url(./__like-block/card__like-block.css);
+@import url(./__like-button/_active/card__like-button_active.css);
+@import url(./__remove-button/card__remove-button.css);
+@import url(./__remove-button/_active/card__remove-button_active.css);
+
+.card{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  width: 310px;
+  height: 361px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+
+@media (max-width : 1280px) {
+  .card {
+    width: 282px;
+  }
+}  
+
+

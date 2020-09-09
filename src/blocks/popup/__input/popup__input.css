@@ -1,0 +1,37 @@
+.popup__input{
+  font-family: Inter, Arial;
+  font-weight: 400;
+  max-height: 14px;
+  font-size: 14px;
+  line-height: 17px;
+  width: 358px;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 13px;
+  border-style: none;
+  border-bottom: 1px rgba(0,0,0,0.2) solid;
+}
+
+.popup__input::placeholder {
+  font-family: Inter, Arial;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #C4C4C4;
+}
+
+@media (max-width : 520px) {
+  .popup__input { 
+    padding-bottom: 12px;
+    width: 200px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .popup__input::placeholder {
+    font-size: 12px;
+    line-height: 15px;
+  }
+} 
+

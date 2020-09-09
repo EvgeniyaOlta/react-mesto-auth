@@ -1,0 +1,9 @@
+.popup__container {
+  position: relative; 
+  width: fit-content;
+  padding: 0px;
+}
+
+.popup__container:hover {
+  cursor: default;
+}

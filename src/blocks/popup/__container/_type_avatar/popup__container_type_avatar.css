@@ -1,0 +1,23 @@
+.popup__container_type_avatar { 
+  display: flex;
+  width: 430px;
+  height: 272px;
+  background-color: white;
+  flex-direction: column;
+  justify-content: start;
+  align-self: flex-start;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 24vh;
+}
+
+@media (max-width : 520px) {
+  .popup__container_type_avatar {
+    width: 240px;
+    height: 258px;
+  }
+}  
+
+ 
+ 
+

@@ -1,0 +1,11 @@
+.card__like-amount {
+  font-family: Inter, Arial;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 29px;
+  color: black;
+  line-height: 16px;
+  text-align: center;
+  margin: 0px;
+  margin-top: 3px;
+}
