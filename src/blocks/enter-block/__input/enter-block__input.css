@@ -1,0 +1,22 @@
+.enter-block__input{
+  font-family: Inter, Arial;
+  font-weight: 400;
+  max-height: 14px;
+  font-size: 14px;
+  line-height: 17px;
+  width: 358px;
+  padding-bottom: 13px;
+  background-color: black;
+  border-style: none;
+  border-bottom: 1px rgba(255,255,255) solid;
+  margin-top: 30px;
+  color: white;
+}
+
+
+
+
+width: 358px;
+height: auto;
+margin: 0px;
+padding: 0px;

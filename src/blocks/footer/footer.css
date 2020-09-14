@@ -3,7 +3,7 @@
 .footer {
   display: flex;
   flex-direction: row;
-  justify-content: start;
+  justify-content: flex-start;
   width: 1000px;
   margin: auto;
   padding-bottom: 36px;

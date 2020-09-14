@@ -1,0 +1,35 @@
+@import url(./__input/enter-block__input.css);
+@import url(./__title/enter-block__title.css);
+@import url(./__list/enter-block__list.css);
+@import url(./__container/enter-block__container.css);
+@import url(./__enter-button/enter-block__enter-button.css);
+@import url(./__redirect-button/enter-block__redirect-button.css);
+
+
+
+.enter-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1000px;
+  margin: auto;
+}
+
+@media (max-width : 1280px) {
+  .enter-block {
+    width: 882px;
+  }
+}
+
+@media (max-width : 1023px) {
+  .enter-block {
+    width: 720px;
+  }
+}
+
+@media (max-width : 767px) {
+  .enter-block {
+    width: 100%;
+    margin: 0px;
+  }
+}

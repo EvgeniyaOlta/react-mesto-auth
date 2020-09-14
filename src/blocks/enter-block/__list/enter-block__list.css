@@ -1,0 +1,13 @@
+.enter-block__list{
+  margin-top: 20px;
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0px;
+  border-style: none;
+}  
+
+
+
+

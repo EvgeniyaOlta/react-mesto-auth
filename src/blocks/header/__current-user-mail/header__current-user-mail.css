@@ -1,0 +1,11 @@
+.header__current-user-mail{
+  font-family: Inter, Arial;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+  margin-right: 24px;
+  margin-top: 5px;
+}  
+
+

@@ -4,7 +4,7 @@
   width: auto;
   flex-direction: column;
   margin-left: 36px;
-  justify-content: start;
+  justify-content: flex-start;
   padding: 0px;
   border-style: none;
 }  

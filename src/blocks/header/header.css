@@ -1,9 +1,12 @@
 @import url(./__logo/header__logo.css);
+@import url(./__current-user-mail/header__current-user-mail.css);
+@import url(./__redirect-button/header__redirect-button.css);
+@import url(./__redirect-button/_logout/header__redirect-button_logout.css);
 
 .header {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: flex-end;
   position: relative;
   width: 1000px;
   margin: auto;

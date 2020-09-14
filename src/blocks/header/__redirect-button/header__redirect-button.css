@@ -1,0 +1,23 @@
+.header__redirect-button {
+  font-family: Inter, Arial;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+  margin-top: 5px;
+  margin-bottom: 46px;
+  border-style: none;
+  text-decoration: none;
+  justify-items: end;
+  color: white;
+}
+
+.header__redirect-button:hover {
+  opacity:0.6;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.header__redirect-button:focus {
+  outline:none;
+}

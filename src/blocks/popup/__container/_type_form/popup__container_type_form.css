@@ -4,7 +4,7 @@
   height: 330px;
   background-color: white;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-self: flex-start;
   position: relative;
   border-radius: 10px;

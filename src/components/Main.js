@@ -5,8 +5,10 @@ import EditProfilePopup from './EditProfilePopup'
 import EditAvatarPopup from './EditAvatarPopup'
 import AddPlacePopup from './AddPlacePopup'
 import Card from './Card';
-import api from '../utils/api';
+import InfoTooltip from './InfoTooltip'
 import { CurrentUserContext } from '../context/CurrentUserContext.js';
+import ok from '../images/ok.svg';
+
 
 function Main(props) {
   
@@ -15,7 +17,6 @@ function Main(props) {
   const avatar = (currentUser !== null && currentUser.avatar);
   const description = (currentUser !== null && currentUser.about);
   
-
   return (
     <main className="content">
     <section className="profile">
@@ -50,6 +51,13 @@ function Main(props) {
     </PopupWithForm> 
     
     <ImagePopup card={props.card} onClose={props.onClose} />
+    
+    <InfoTooltip isOpen={props.isInfoTooltipOkOpen} onClose={props.onClose} >  
+        <div className="info-tooltip__image" style={{ backgroundImage: `url(${ok})` }}> </div>
+        <p className="info-tooltip__title">Вы успешно зарегистрировались!</p> 
+    </InfoTooltip> 
+
+    
 
   </main>
   );

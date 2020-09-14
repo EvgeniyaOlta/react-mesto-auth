@@ -1,0 +1,25 @@
+.enter-block__redirect-button {
+  width: 358px;
+  margin: 0px;
+  margin-top: 15px;
+  padding: 0px;
+  background-color: black;
+  font-family: Inter, Arial;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: white;
+  border-style: none;
+  text-decoration: none;
+}
+
+.enter-block__redirect-button:hover {
+  opacity:0.6;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.enter-block__redirect-button:focus {
+  outline:none;
+}

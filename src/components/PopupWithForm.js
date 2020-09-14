@@ -10,7 +10,7 @@ function PopupWithForm(props) {
             {props.children}
           </fieldset>
         </form> 
-        </section> 
+      </section> 
     );
   }
 
