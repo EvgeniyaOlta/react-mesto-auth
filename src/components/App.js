@@ -38,7 +38,6 @@ function App() {
   React.useEffect(() => {
     api.getInitialCards()
     .then(cardsInfoData => {
-      Array.from(cardsInfoData)
       setCards(cardsInfoData);
     })
     .catch(() => {

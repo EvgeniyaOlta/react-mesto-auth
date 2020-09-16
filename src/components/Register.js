@@ -13,7 +13,6 @@ function Register(props) {
     e.preventDefault();
     
     auth.register(email, password).then((res) => {
-    
       if(res.data){
         setEmail('');
         setPassword('');
@@ -25,7 +24,10 @@ function Register(props) {
         props.onInfoTooltipError();
       }
     })
-    .catch((err) => {console.log(err)});
+    .catch((err) => {
+      console.log(err)
+      props.onInfoTooltipError();
+    });
   }
 
     return (

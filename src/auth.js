@@ -8,15 +8,15 @@ export const register = (email, password) => {
     },
     body: JSON.stringify({ email, password })
   })
-  .then(res => res.ok ? res : Promise.reject(res))
-  .then((res) => {
-    if(res.ok) {
-      return res.json();
-    } 
-  })
-  .then((data) => {
-    return data;
-  })
+  .then(res => res.ok ? res : Promise.reject(res)) 
+  .then((res) => { 
+    if(res.ok) { 
+      return res.json(); 
+    }  
+  }) 
+  .then((data) => { 
+    return data; 
+  }) 
   .catch((err) => { 
     if (err.status === 400) { 
       console.log('Некорректно заполнено одно из полей'); 
@@ -24,8 +24,6 @@ export const register = (email, password) => {
     } 
   }); 
 };
-
-
 
 
 export const authorize = (email, password) => {
@@ -46,9 +44,7 @@ export const authorize = (email, password) => {
       if (data.token){
         localStorage.setItem('jwt', data.token);
         return data;
-      } else {
-        return;
-      }
+      } 
     })
     .catch((err) => { 
       if (err.status === 400) { 

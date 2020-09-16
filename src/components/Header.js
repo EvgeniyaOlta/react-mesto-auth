@@ -14,9 +14,9 @@ function Header(props) {
     <header className="header"> 
       <img className= "header__logo" src={logo} alt="Логотип Mesto." />
       <p className= "header__current-user-mail">{props.userEmail}</p>
-      {props.loggedIn === true && 
+      {props.loggedIn && ( 
         <p className="header__redirect-button header__redirect-button_logout" onClick={signOut}>Выйти</p>
-      }
+      )}
       {props.loginPage === false && props.loggedIn === false &&
         <Link to="/sign-in" className="header__redirect-button" onClick={props.LoginPageActive}>Войти</Link>
       }
@@ -28,5 +28,3 @@ function Header(props) {
 }
 
 export default Header;
-
- // <Link to="/sign-in" className="header__redirect-button">Войти</Link>
